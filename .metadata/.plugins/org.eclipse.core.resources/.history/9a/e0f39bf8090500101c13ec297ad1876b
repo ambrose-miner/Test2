@@ -1,0 +1,54 @@
+package com.service;
+
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bean.Employee;
+import com.dao.EmployeeDao;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	EmployeeDao employeeDao;
+	
+		public String storeEmployee(Employee employee) {
+				
+				employeeDao.save(employee);	//save predefined method of JpaRepository 
+		
+			return "Record saved";
+		}
+		
+		public List<Employee> findAllProducts() {
+			
+			return employeeDao.findAll();	// findAll pre defined retrieve all employee as list of employee
+			
+		}
+		
+		public String deleteEmployee(int employeeId) {
+			if(employeeDao.existsById(employeeId)) {		// if record present return true else return false.
+				employeeDao.deleteById(employeeId);	// no return type means void 
+				return "product record deleted";
+			}else {
+				return "product not present";
+			}
+		}
+		
+		public String updateEmployee(Employee modifiedEmployee) {		// pid = 1, pname = "TV", price = 55000
+			
+			
+			Optional<Employee> result = employeeDao.findById(modifiedEmployee.getEmployeeId());
+			
+			if(result.isPresent()) {
+					Employee p = result.get();	// retrieve that product object from db. 
+					p.setProductName(modifiedEmployee.getEmployeeName());
+					p.setPrice(modifiedEmployee.getPrice());  // replace new data. 
+					employeeDao.saveAndFlush(p);		// update existing record with new information 
+					return "Product updated successfully";
+			}else {
+				return "product not present";
+			}
+		}
+}

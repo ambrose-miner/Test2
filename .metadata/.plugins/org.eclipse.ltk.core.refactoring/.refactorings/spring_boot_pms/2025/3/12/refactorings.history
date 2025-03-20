@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;pid&apos; in &apos;com.service.ProductService.deleteProduct(...)&apos; to &apos;productId&apos;&#x0D;&#x0A;- Original project: &apos;spring_boot_pms&apos;&#x0D;&#x0A;- Original element: &apos;com.service.ProductService.deleteProduct(int).pid&apos;&#x0D;&#x0A;- Renamed element: &apos;pid&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pid&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{ProductService.java[ProductService~deleteProduct~I@pid!688!694!692!694!I!0!true" name="productId" references="true" stamp="1742422770897" version="1.0"/>
+</session>

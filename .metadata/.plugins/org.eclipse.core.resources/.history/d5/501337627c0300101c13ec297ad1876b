@@ -1,0 +1,13 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class ProductController {
+	
+	public String openIndexPage(Model mm) {
+		mm.addAttribute("name" ,"Ambrose Miner");
+		return "index";
+	}
+}

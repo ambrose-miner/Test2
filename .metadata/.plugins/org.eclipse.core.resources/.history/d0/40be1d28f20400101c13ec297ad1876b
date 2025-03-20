@@ -1,0 +1,11 @@
+package com.bean;
+
+public class Employee {
+private int employeeId;
+private String firstName;
+private String lastName;
+private String department;
+private String jobTitle;
+private int timeInCompany;
+
+}

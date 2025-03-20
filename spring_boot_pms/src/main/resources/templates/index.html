@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div th:text="${msg}" style="color:red"></div>
+<h2>Welcome to <b th:text="${project}"></b> app! created by:<span th:text="${name}"></span></h2>
+<br/>
+<form action="#" th:action="@{/storeProduct}" method="post" th:object="${pp}">
+	<input type="hidden" name="productId" th:field="*{productId}" th:value="*{productId}"/>
+	<label>Product Name</label>
+	<input type="text" name="productName" th:field="*{productName}"/><br/>
+	<label>Price</label>
+	<input type="number" name="price" th:field="*{price}"/><br/>
+	<input type="submit" th:value="${buttonKey}"  name="submitButton"/>
+	<input type="reset" value="reset"/>
+</form>
+<hr/>
+<table border="1">
+	<tr>
+		<th>PId</th>
+		<th>PName</th>
+		<th>Price</th>
+		<th>Delete</th>
+		<th>Update</th>
+	</tr>
+	<tr th:each="p:${products}">
+		<td th:text="${p.productId}"></td>
+		<td th:text="${p.productName}"></td>
+		<td th:text="${p.price}"></td>
+		<td><a th:href="@{deleteProduct(productId=${p.productId})}">Delete</a></td>
+		<td><a th:href="@{findProductToUpdate(pid=${p.productId})}">Update</a></td>
+	</tr>
+</table>
+</body>
+</html>
