@@ -1618,3 +1618,113 @@
 2025-03-20 14:44:58,704 [Worker-393: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-20 14:44:58,754 [Worker-393: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-20 14:44:58,762 [Worker-393: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\HBC-Corporate-Structure\src\test\resources
+2025-03-20 18:21:36,933 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:springbootEmployeeRestApi:0.0.1-SNAPSHOT @ C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\pom.xml.
+2025-03-20 18:21:37,755 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3.pom
+2025-03-20 18:21:37,762 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3.pom
+2025-03-20 18:21:37,951 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3.jar
+2025-03-20 18:21:38,018 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3.jar
+2025-03-20 18:21:38,257 [Worker-370: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springbootEmployeeRestApi/src/main/java
+2025-03-20 18:21:38,257 [Worker-370: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springbootEmployeeRestApi/src/main/resources
+2025-03-20 18:21:38,260 [Worker-370: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springbootEmployeeRestApi/src/main/resources
+2025-03-20 18:21:38,264 [Worker-370: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springbootEmployeeRestApi/src/test/java
+2025-03-20 18:21:38,265 [Worker-370: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springbootEmployeeRestApi/src/test/resources
+2025-03-20 18:21:38,492 [Worker-370: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-03-20 18:21:39,257 [Worker-370: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3-sources.jar
+2025-03-20 18:21:39,307 [Worker-370: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.4.3/spring-boot-devtools-3.4.3-sources.jar
+2025-03-20 18:21:39,309 [Worker-370: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.4.3
+2025-03-20 18:21:39,384 [Worker-403: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:21:39,417 [Worker-403: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:21:39,424 [Worker-403: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:24:31,266 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:24:31,277 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:24:31,280 [Worker-407: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\spring_boot_pms\src\test\resources
+2025-03-20 18:24:42,634 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:24:42,649 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:24:42,651 [Worker-408: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:27:59,792 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:27:59,804 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:27:59,808 [Worker-411: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:28:25,793 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:28:25,821 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:28:25,822 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:32:33,742 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:32:33,753 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:32:33,756 [Worker-412: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:33:02,469 [Worker-413: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:33:02,475 [Worker-413: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:33:02,477 [Worker-413: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:36:03,325 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:36:03,336 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:36:03,340 [Worker-416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:38:40,369 [Worker-418: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:38:40,375 [Worker-418: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:38:40,378 [Worker-418: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:39:45,103 [Worker-419: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:39:45,113 [Worker-419: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:39:45,116 [Worker-419: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:45:51,307 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:45:51,316 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:45:51,322 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:45:55,898 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:45:55,907 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:45:55,908 [Worker-421: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:53:14,848 [Worker-427: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:53:14,855 [Worker-427: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:53:14,857 [Worker-427: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 18:54:03,559 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:54:03,567 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:54:03,568 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 19:01:29,285 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 19:01:29,295 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 19:01:29,297 [Worker-428: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 19:02:45,530 [Worker-433: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 19:02:45,537 [Worker-433: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 19:02:45,540 [Worker-433: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 19:12:29,700 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 19:12:29,712 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 19:12:29,713 [Worker-436: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 19:15:35,045 [Worker-437: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 19:15:35,057 [Worker-437: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 19:15:35,060 [Worker-437: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 19:58:44,118 [Worker-452: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 19:58:44,134 [Worker-452: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 19:58:44,136 [Worker-452: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:25:52,435 [Worker-442: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:25:52,453 [Worker-442: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:25:52,457 [Worker-442: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:27:03,327 [Worker-460: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:27:03,343 [Worker-460: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:27:03,345 [Worker-460: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:27:29,731 [Worker-462: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:27:29,755 [Worker-462: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:27:29,757 [Worker-462: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:50:43,367 [Worker-466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:50:43,388 [Worker-466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:50:43,393 [Worker-466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:51:33,009 [Worker-467: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:51:33,088 [Worker-467: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:51:33,090 [Worker-467: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-20 20:52:07,942 [Worker-463: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 20:52:07,949 [Worker-463: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 20:52:07,952 [Worker-463: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-24 11:29:41,336 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-24 11:35:27,611 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:27,636 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:27,643 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\HBC-Corporate-Structure\src\test\resources
+2025-03-24 11:35:28,709 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:28,727 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:28,733 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\SpringBootWealcomeApp\SpringBootWealcomeApp\src\test\resources
+2025-03-24 11:35:29,162 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-24 11:35:29,176 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-03-24 11:35:30,336 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:30,345 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:30,351 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\spring_boot_pms\src\test\resources
+2025-03-24 11:35:31,084 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:31,098 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-24 11:35:31,102 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootEmployeeRestApi\src\test\resources
+2025-03-24 11:35:31,732 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:35:31,766 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-24 11:35:31,770 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\springbootbasicapi\src\test\resources
+2025-03-24 11:57:14,597 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:57:14,607 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-24 11:57:14,612 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projects\eclipse-workspace-springboot\spring_boot_pms\src\test\resources

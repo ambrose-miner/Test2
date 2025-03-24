@@ -17,7 +17,7 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // adds auto_increment feature to class product
 	@Column(name = "productid")
 	private int productId;
-	@Column(name = "productname")
+	@Column(name = "productname") // makes column heading in mysql "productname" rather than "product_Name"
 	private String productName;
 	private float price;
 	
